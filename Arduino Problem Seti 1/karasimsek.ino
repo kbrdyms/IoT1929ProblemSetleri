@@ -1,6 +1,6 @@
  
 void setup() {
-  // put your setup code here, to run once:
+  
 
   pinMode(2,OUTPUT);
   pinMode(3,OUTPUT);
@@ -11,22 +11,22 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
   
   digitalWrite(2, HIGH);
-  delay(500); // Wait for 1000 millisecond(s)
+  delay(500); 
   
     digitalWrite(3, HIGH);
-  delay(500); // Wait for 1000 millisecond(s)
+  delay(500); 
   
     digitalWrite(4, HIGH);
-  delay(500); // Wait for 1000 millisecond(s)
+  delay(500); 
  
     digitalWrite(5, HIGH);
-  delay(500); // Wait for 1000 millisecond(s)
+  delay(500); 
  
     digitalWrite(6, HIGH);
-  delay(500); // Wait for 1000 millisecond(s)
+  delay(500); 
   
    digitalWrite(6,LOW);
   delay(500);
